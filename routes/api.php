@@ -20,7 +20,7 @@ use App\Http\Controllers\SmsRoutingRoutesController;
 use App\Http\Controllers\SmsRoutingSmppConnectionsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+ 
 /*
 |--------------------------------------------------------------------------
 | API Routes
