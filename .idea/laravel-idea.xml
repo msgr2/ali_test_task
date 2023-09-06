@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LaravelIdeaMainSettings">
+    <option name="codeGeneration">
+      <LaravelCodeGeneration>
+        <option name="customGenerations">
+          <list>
+            <CustomGeneration>
+              <option name="baseClass" value="PhpClickHouseLaravel\BaseModel" />
+              <option name="namespace" value="Models" />
+              <option name="templateName" value="Laravel Ideal Model" />
+              <option name="title" value="Create clickhouse model" />
+            </CustomGeneration>
+            <CustomGeneration>
+              <option name="classSuffix" value="Service" />
+              <option name="namespace" value="Services" />
+              <option name="templateName" value="Laravel Ideal Class" />
+              <option name="title" value="Create Service class" />
+            </CustomGeneration>
+            <CustomGeneration>
+              <option name="baseClass" value="Spatie\LaravelData\Data" />
+              <option name="classSuffix" value="Data" />
+              <option name="namespace" value="Data" />
+              <option name="templateName" value="Laravel Ideal Class" />
+              <option name="title" value="Create data class" />
+            </CustomGeneration>
+            <CustomGeneration>
+              <option name="baseClass" value="Spatie\Enum\Enum" />
+              <option name="classSuffix" value="Enum" />
+              <option name="namespace" value="Enums" />
+              <option name="templateName" value="Laravel Ideal Class" />
+              <option name="title" value="Create enum" />
+            </CustomGeneration>
+          </list>
+        </option>
+        <option name="generationStringSettings">
+          <map>
+            <entry key="createEloquentScope:namespace" value="Models\Scopes" />
+            <entry key="createModel:namespace" value="Models" />
+          </map>
+        </option>
+      </LaravelCodeGeneration>
+    </option>
+    <option name="frameworkFound" value="true" />
+    <option name="userClassName" value="\AppModels\User" />
+  </component>
+</project>

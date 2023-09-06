@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ApiRoutingRatesTest.testRouteRateLog" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="Tests\Feature\Api\ApiRoutingRatesTest" configuration_file="/var/www/html/phpunit.xml" directory="/" file="$PROJECT_DIR$/tests/Feature/Api/ApiRoutingRatesTest.php" method="testRouteRateLog" />
+    <method v="2" />
+  </configuration>
+</component>

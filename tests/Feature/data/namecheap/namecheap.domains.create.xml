@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApiResponse Status="OK" xmlns="http://api.namecheap.com/xml.response">
+    <Errors/>
+    <Warnings/>
+    <RequestedCommand>namecheap.domains.create</RequestedCommand>
+    <CommandResponse Type="namecheap.domains.create">
+        <DomainCreateResult Domain="smsedge.com" Registered="true" ChargedAmount="14.1600" DomainID="813939"
+                            OrderID="2961749" TransactionID="18482342" WhoisguardEnable="false" FreePositiveSSL="false"
+                            NonRealTimeDomain="false"/>
+    </CommandResponse>
+    <Server>PHX01SBAPIEXT05</Server>
+    <GMTTimeDifference>--4:00</GMTTimeDifference>
+    <ExecutionTime>5.876</ExecutionTime>
+</ApiResponse>

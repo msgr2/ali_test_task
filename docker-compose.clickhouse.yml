@@ -1,0 +1,26 @@
+version: '3'
+services:
+  clickhouse:
+    container_name: "clickhouse"
+    image: clickhouse/clickhouse-server:23.7-alpine
+    environment:
+      - CLICKHOUSE_DB=${CLICKHOUSE_DATABASE}
+      - CLICKHOUSE_USER=${CLICKHOUSE_USERNAME}
+      - CLICKHOUSE_PASSWORD=${CLICKHOUSE_PASSWORD}
+      - CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=${CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT}
+    volumes:
+      - 'sail-clickhouse:/var/lib/clickhouse/data'
+      - ./docker/clickhouse/config.xml:/etc/clickhouse-server/config.xml
+      - ./docker/clickhouse/users.xml:/etc/clickhouse-server/users.xml
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    networks:
+      - sail
+
+networks:
+  sail:
+    driver: bridge
+volumes:
+  sail-clickhouse:
+    driver: local

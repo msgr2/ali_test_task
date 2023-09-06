@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApiResponse Status="ERROR" xmlns="http://api.namecheap.com/xml.response">
+    <Errors>
+        <Error Number="2010166">Parameter DomainName is Missing</Error>
+    </Errors>
+    <Warnings/>
+    <RequestedCommand>namecheap.domains.create</RequestedCommand>
+    <CommandResponse Type="namecheap.domains.create">
+        <DomainCreateResult Registered="false" ChargedAmount="0" DomainID="0" OrderID="0" TransactionID="0"
+                            WhoisguardEnable="false" FreePositiveSSL="false" NonRealTimeDomain="false"/>
+    </CommandResponse>
+    <Server>PHX01SBAPIEXT06</Server>
+    <GMTTimeDifference>--4:00</GMTTimeDifference>
+    <ExecutionTime>0.014</ExecutionTime>
+</ApiResponse>
